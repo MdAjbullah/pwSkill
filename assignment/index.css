@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+   
+    background-image: url(./assest/pexels-maxyne-barcel-10402282\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    background-color: aqua;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+nav ul {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+
+}
+nav ul li{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 10px;
+   
+    color: rgb(20, 5, 231);
+    font-size: 1rem;
+   
+
+    
+}
+.logo img{
+   width: 85px;
+   margin: 15px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+   margin-top: 15px;
+    padding: 10px;
+    border: 1px solid rgb(231, 133, 5);
+    border-radius: 5px;
+    background-color: rgb(231, 9, 5);
+    color: white;
+    text-align: center;
+
+    
+}
+.btn:hover{
+    background-color: rgb(231, 133, 5);
+    color: white;
+    cursor: pointer;
+}
+
+.md h1{
+    text-align: center;
+    margin-top: 300px;
+    color: rgb(20, 5, 231);
+}
+.mdh {
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+
+    color: rgb(231, 88, 5);
+
+}
+.mdh button{
+    width: 150px;
+    height: 40px;
+   margin-top: 15px;
+    padding: 10px;
+    border: 1px solid rgb(231, 133, 5);
+    border-radius: 5px;
+    background-color: rgb(231, 9, 5);
+    color: white;
+    text-align: center;
+
+
+}
+.mdh button:hover{
+    background-color: rgb(231, 133, 5);
+    color: white;
+    cursor: pointer;
+
+}
+.footer_img img{
+    width: 80px;
+    margin: 15px;
+    position: absolute;
+    right: 40px;
+   
+  
+}
